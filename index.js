@@ -4,7 +4,7 @@ const authorName = document.getElementById("author-name");
 let quoteArray = []
 
 async function getData(){
-    const response = await fetch('https://api.quotable.io/random?minLength=50&maxLength=100');
+    const response = await fetch('https://api.quotable.io/random?minLength=50&maxLength=90');
     const data = await response.json();
     quoteArray.push({
         quote : data.content,

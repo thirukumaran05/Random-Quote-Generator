@@ -16,8 +16,8 @@ body{
 }
 
 .container{
-    height: 540px;
-    width: 400px;
+    height: 500px;
+    width: 380px;
     position: relative;
     background-color: #fff;
     display: flex;
@@ -25,6 +25,7 @@ body{
     justify-content: space-between;
     flex-direction: column;
     border-radius: 2vh;
+    margin: 20px;
 }
 
 .quote-container{

@@ -18,7 +18,7 @@ async function getData(){
 getData();
 
 
-copy.addEventListener("click" , function(){
+copy.addEventListener("click" ,  function(){  
     navigator.clipboard.writeText(quoteArray[0].quote);
-    window.alert("Copied to Clipboard");
 })
+
